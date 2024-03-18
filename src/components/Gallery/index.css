@@ -1,0 +1,38 @@
+/* Write your code here. */
+.gallery-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.active-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.active-image {
+  width: 90%;
+  height: 90%;
+  margin: 0px;
+}
+.gallery-heading {
+  align-self: flex-start;
+  padding-left: 50px;
+}
+.gallery-para {
+  align-self: flex-start;
+  padding-left: 50px;
+  margin: 0px;
+}
+
+.thumbnail-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

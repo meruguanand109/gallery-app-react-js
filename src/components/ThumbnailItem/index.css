@@ -1,0 +1,22 @@
+/* Write your code here. */
+.thumbnail-item {
+  list-style-type: none;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.active-thumbnail {
+  opacity: 1;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+}
